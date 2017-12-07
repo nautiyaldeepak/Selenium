@@ -2,7 +2,7 @@ from selenium import webdriver
 
 class test():
     def AutomationTestFunction(self):
-        BaseURL = 'https://letskodeit.teachable.com/p/practice'
+        BaseURL = 'https://www.google.co.in/'
         driver = webdriver.Firefox()
         driver.get(BaseURL)
         Element_CSSSelector = driver.find_element_by_css_selector('#name')
